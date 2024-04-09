@@ -1,0 +1,60 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+
+
+}
+
+.card {
+  padding: 1.5em;
+  background-color: black;
+  color: white;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+body {
+  background-color: black;
+  color: white;
+ 
+}
+
+.count-button{
+  border: solid 0.5em #000;
+  border-radius: 2rem;
+  padding: 1em;
+  width: 17em;
+  margin: 1em;
+  color: white;
+  background-color: black;
+  transition: border 0.15s;
+  font-family: 'Poppins', sans-serif;
+}
+
+.decrement-button{
+  border: solid 0.5em #000;
+  border-radius: 2rem;
+  padding: 1em;
+  width: 17em;
+  color: white;
+  background-color: black;
+  transition: border 0.15s;
+  font-family: 'Poppins', sans-serif;
+}
+
+.decrement-button:hover{
+  border: solid 0.5em #fff;
+}
+
+.count-button:hover{
+  border: solid 0.5em #fff;
+}
